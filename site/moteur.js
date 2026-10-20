@@ -145,7 +145,9 @@
   /* Espaces insécables de la typographie française, hors blocs de code */
   function typo(html) {
     return html.split(/(<pre[\s\S]*?<\/pre>)/).map((bout, i) => (i % 2 ? bout
-      : bout.replace(/ ([:;?!»])/g, ' $1').replace(/« /g, '« '))).join('');
+      : bout.replace(/ ([:;?!»])/g, '\u00a0$1').replace(/« /g, '«\u00a0')
+        .replace(/(\d) (\d{3})\b/g, '$1\u00a0$2')
+        .replace(/(\d) h (\d)/g, '$1\u00a0h\u00a0$2'))).join('');
   }
 
   function jaugeHtml(j) {
@@ -243,7 +245,7 @@
     const incident = s.horloge != null;
     return '<article class="passage' + (incident ? ' incident' : '') + '">'
       + '<header class="quand"><p class="jour">' + (val(n.jour) || val(C.jour) || '') + '</p>'
-      + '<h2 id="titre" tabindex="-1">' + val(n.heure) + '</h2>'
+      + '<h2 id="titre" tabindex="-1">' + typo(String(val(n.heure))) + '</h2>'
       + (incident ? '<p class="chrono">Incident en cours depuis ' + s.horloge + ' min</p>' : '')
       + '</header>'
       + deltasHtml()
