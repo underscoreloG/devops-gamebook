@@ -192,7 +192,7 @@ ${!s.f.KARIM
     },
   };
 
-  racine.CHAPITRES.push({
+  racine.CHAPITRES.fr.push({
     id: 'ch7',
     numero: 7,
     titre: 'L\'outil de Malik',

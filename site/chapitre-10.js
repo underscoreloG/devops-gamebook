@@ -264,7 +264,7 @@ ${capot(s.f.RENDORMI
     },
   };
 
-  racine.CHAPITRES.push({
+  racine.CHAPITRES.fr.push({
     id: 'ch10',
     numero: 10,
     titre: '3 h 12',

@@ -248,7 +248,7 @@ ${a(s, 'MUTED_ALERTS') && s.f.EVENEMENTS > 0
     + ' '
     + (s.confiance >= 7 ? 'L\'équipe te suit sans que tu aies à insister.' : s.confiance <= 2 ? 'On vérifie encore derrière toi.' : 'L\'équipe t\'écoute, la plupart du temps.');
 
-  racine.CHAPITRES.push({
+  racine.CHAPITRES.fr.push({
     id: 'ch12',
     numero: 12,
     titre: 'Samedi, 20 h 50',

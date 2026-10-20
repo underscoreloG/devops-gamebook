@@ -269,7 +269,7 @@ ${capot('Si n\'importe quel membre de l\'équipe aurait pu faire la même erreur
     },
   };
 
-  racine.CHAPITRES.push({
+  racine.CHAPITRES.fr.push({
     id: 'ch4',
     numero: 4,
     titre: 'Le backup jamais restauré',

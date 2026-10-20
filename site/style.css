@@ -99,6 +99,24 @@ ul, ol { padding: 0; list-style: none; }
 }
 .discret:hover { color: var(--encre); border-color: var(--encre); }
 
+/* Actions de l'en-tête : sommaire et choix de la langue */
+.entete-actions { display: flex; align-items: center; gap: 0.5rem; }
+.langues { display: inline-flex; border: 1px solid var(--trait); border-radius: 4px; overflow: hidden; }
+.langue {
+  font-family: var(--f-mono);
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  color: var(--discret);
+  background: none;
+  border: 0;
+  padding: 0.3rem 0.55rem;
+  cursor: pointer;
+}
+.langue + .langue { border-left: 1px solid var(--trait); }
+.langue:hover { color: var(--encre); }
+.langue[aria-pressed="true"] { background: var(--encre); color: var(--fond); }
+
 /* Grille générale */
 .plan { display: grid; grid-template-columns: minmax(0, 1fr); gap: 1.25rem; }
 .recit { min-width: 0; }

@@ -264,7 +264,7 @@ ${capot('La correction était la bonne, dans le mauvais ordre. L\'image de la ve
     },
   };
 
-  racine.CHAPITRES.push({
+  racine.CHAPITRES.fr.push({
     id: 'ch5',
     numero: 5,
     titre: 'Ça marche sur ma machine',
