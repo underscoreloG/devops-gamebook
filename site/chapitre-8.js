@@ -260,7 +260,7 @@ ${!grave(s) && s.f.RES !== 'cpu' && s.f.SONDE !== 'rien'
     },
   };
 
-  racine.CHAPITRES.push({
+  racine.CHAPITRES.fr.push({
     id: 'ch8',
     numero: 8,
     titre: 'La grande migration',

@@ -304,7 +304,7 @@ ${s.f.IMAGE
     },
   };
 
-  racine.CHAPITRES.push({
+  racine.CHAPITRES.fr.push({
     id: 'ch3',
     numero: 3,
     titre: 'Le script de Bastien',

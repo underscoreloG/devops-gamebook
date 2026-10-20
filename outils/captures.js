@@ -87,7 +87,7 @@ async function main() {
   await capturer('incident.png', 'window.scrollTo(0, 0); true');
 
   /* 3. Les choix, sombre : le paragraphe de réécriture de la migration, en entier */
-  await taille(1280, 1320);
+  await taille(1280, 1180);
   await jouer(['[data-chap="0"]', choix(1)]);
   await capturer('choix.png', 'window.scrollTo(0, 0); true');
 

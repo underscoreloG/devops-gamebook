@@ -371,7 +371,7 @@ ${capot('Agrandir un disque est une vraie réponse quand on sait pourquoi il est
     },
   };
 
-  racine.CHAPITRES.push({
+  racine.CHAPITRES.fr.push({
     id: 'ch2',
     numero: 2,
     titre: 'Disque plein',

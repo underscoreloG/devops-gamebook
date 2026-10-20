@@ -468,7 +468,7 @@ ${capot('Arrêter l\'hémorragie d\'abord, réparer ensuite. Et dépasser le quo
     },
   };
 
-  racine.CHAPITRES.push({
+  racine.CHAPITRES.fr.push({
     id: 'ch1',
     numero: 1,
     titre: 'La migration',

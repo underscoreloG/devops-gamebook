@@ -214,7 +214,7 @@ ${capot('Le test était faux, pas inutile. Il gardait une vraie règle, mal. Dé
     },
   };
 
-  racine.CHAPITRES.push({
+  racine.CHAPITRES.fr.push({
     id: 'ch6',
     numero: 6,
     titre: 'Le pipeline',

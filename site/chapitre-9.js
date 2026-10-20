@@ -285,7 +285,7 @@ ${capot('Ton week-end était légitime. Mais personne d\'autre ne savait renouve
     },
   };
 
-  racine.CHAPITRES.push({
+  racine.CHAPITRES.fr.push({
     id: 'ch9',
     numero: 9,
     titre: 'C\'est toujours le DNS',

@@ -218,7 +218,7 @@ ${!s.f.DETRUIT && s.f.VEILLE
     },
   };
 
-  racine.CHAPITRES.push({
+  racine.CHAPITRES.fr.push({
     id: 'ch11',
     numero: 11,
     titre: '1 to destroy',
